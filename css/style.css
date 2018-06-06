@@ -1,0 +1,154 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300; }
+
+p, h3, h2, h4 {
+  margin: 0px; }
+
+/*********************************
+							bootstrap css
+***********************************/
+.btn-primary {
+  background-color: #b93a41; }
+
+.btn-secondary {
+  background-color: #05335f; }
+
+/*********************************
+							common css
+***********************************/
+.j-slab {
+  font-family: 'Josefin Slab', serif; }
+
+.fw-500 {
+  font-weight: 500; }
+
+.fw-700 {
+  font-weight: 700; }
+
+.fw-900 {
+  font-weight: 900; }
+
+.text-red {
+  color: #b93a41; }
+
+.border-div {
+  display: inline-block;
+  background-color: blue;
+  height: 4px;
+  width: 100px;
+  margin: 20px 0px; }
+
+.bg-dark-50 {
+  background-color: rgba(0, 0, 255, 0.5); }
+
+.bg-dark-75 {
+  background-color: rgba(0, 0, 255, 0.75); }
+
+.box-shadow-20 {
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2); }
+
+.mt-250 {
+  margin-top: 250px; }
+
+/*********************************
+							banner
+***********************************/
+.banner-wrapper {
+  background-image: url("../images/banner.jpeg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover; }
+  .banner-wrapper .navbar {
+    background-color: rgba(0, 0, 255, 0.85) !important; }
+    .banner-wrapper .navbar .navbar-nav .nav-item .nav-link {
+      font-family: 'Josefin Slab', serif;
+      font-weight: 900; }
+  .banner-wrapper .candite .img-fluid {
+    max-height: 100vh; }
+
+.banner-section {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -100px; }
+  .banner-section .ban-sec1, .banner-section .ban-sec2, .banner-section .ban-sec3 {
+    min-height: 200px; }
+  .banner-section .ban-sec2 {
+    background-image: url("../images/img-sec.jpeg");
+    min-height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+/*********************************
+			president-candidate
+***********************************/
+.president-candidate .candidate-info {
+  background: aliceblue; }
+  .president-candidate .candidate-info .candidate-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); }
+  .president-candidate .candidate-info .carousel .carousel-indicators {
+    bottom: -30px !important; }
+
+/*********************************
+							news
+***********************************/
+.news .news-secion {
+  border: 1px solid #ccc;
+  text-decoration: none;
+  color: #555; }
+  .news .news-secion .news-img {
+    background-image: url("../images/banner.jpeg");
+    min-height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+.news .news-secion-small {
+  border: 1px solid #ccc;
+  text-decoration: none;
+  color: #555; }
+  .news .news-secion-small .news-img {
+    background-image: url("../images/banner.jpeg");
+    min-height: 150px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+/*********************************
+						testimonial
+***********************************/
+#testimonial {
+  background: #e8e8e8; }
+  #testimonial .testimonial .testimonial-content .test-image {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    background: aliceblue;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2); }
+  #testimonial .quote {
+    width: 60px;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+/*********************************
+						footer
+***********************************/
+.footer {
+  background-color: blue; }
+  .footer h4 {
+    color: white; }
+  .footer ul {
+    list-style: none;
+    padding: 0; }
+    .footer ul li a {
+      color: white; }
+
+/*# sourceMappingURL=style.css.map */
